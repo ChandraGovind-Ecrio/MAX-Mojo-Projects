@@ -1,0 +1,9 @@
+[workspace]
+authors = ["Mojo learner"]
+channels = ["https://conda.modular.com/max-nightly", "conda-forge"]
+name = "realtime-media-telemetry"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[dependencies]
+mojo = "*"

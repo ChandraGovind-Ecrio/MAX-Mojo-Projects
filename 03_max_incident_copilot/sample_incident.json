@@ -1,0 +1,22 @@
+{
+  "incident_id": "INC-2026-0417",
+  "service": "realtime-media-gateway",
+  "region": "us-west",
+  "started_at": "2026-11-12T17:42:00Z",
+  "customer_impact": "Callers report choppy audio and intermittent reconnects.",
+  "metrics": {
+    "packet_loss_percent": 3.8,
+    "jitter_ms_p95": 47.0,
+    "reconnect_rate_percent": 6.2,
+    "healthy_baseline_loss_percent": 0.3
+  },
+  "recent_changes": [
+    "Edge pool capacity reduction completed 20 minutes before incident start.",
+    "No application deployment in the affected interval."
+  ],
+  "known_evidence": [
+    "Impact is concentrated in one region.",
+    "CPU saturation alerts are absent.",
+    "Transport retransmit counters increased after the capacity change."
+  ]
+}
